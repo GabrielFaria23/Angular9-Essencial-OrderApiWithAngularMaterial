@@ -24,6 +24,7 @@ import { RedDirective } from './directives/red.directive';
 import { ForDirective } from './directives/for.directive';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { FormsModule } from '@angular/forms';
+import { ProductReadComponent } from './components/product/product-read/product-read.component';
 
 
 @NgModule({
@@ -37,6 +38,7 @@ import { FormsModule } from '@angular/forms';
     RedDirective,
     ForDirective,
     ProductCreateComponent,
+    ProductReadComponent,
   ],
   imports: [
     BrowserModule,
